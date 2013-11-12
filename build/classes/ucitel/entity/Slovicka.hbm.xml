@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 29.6.2011 14:39:07 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="slovicka" name="ucitel.entity.Slovicka" table="3_slovicka">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="czech" type="string">
+      <column length="128" name="czech" not-null="true"/>
+    </property>
+    <property name="lang" type="string">
+      <column length="128" name="lang"/>
+    </property>
+    <property name="weight" type="java.lang.Integer">
+      <column name="weight"/>
+    </property>
+    <property name="lastAsked" type="timestamp">
+      <column length="19" name="last_asked" not-null="true"/>
+    </property>
+    <property name="correctlyAnswered" type="java.lang.Integer">
+      <column name="correctly_answered"/>
+    </property>
+    <property name="language" type="string">
+      <column length="45" name="language" not-null="true"/>
+    </property>
+    <property name="userId" type="java.lang.Integer">
+      <column name="userID"/>
+    </property>
+    <property name="caFromCzech" type="int">
+      <column name="CA_from_czech" not-null="true"/>
+    </property>
+    <property name="hint" type="string">
+      <column name="hint"/>
+    </property>
+    <property name="themeId" type="java.lang.Integer">
+      <column name="theme_id"/>
+    </property>
+    <property name="lastAskedToCzech" type="timestamp">
+      <column length="19" name="last_asked_to_czech" not-null="true"/>
+    </property>
+    <property name="grammar" type="java.lang.Short">
+      <column name="grammar"/>
+    </property>
+  </class>
+</hibernate-mapping>

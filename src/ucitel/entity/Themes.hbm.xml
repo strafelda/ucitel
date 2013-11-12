@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 29.6.2011 14:39:07 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="slovicka" name="ucitel.entity.Themes" table="themes">
+    <id name="themeId" type="java.lang.Integer">
+      <column name="theme_id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="theme" type="string">
+      <column length="45" name="theme" not-null="true"/>
+    </property>
+    <property name="userId" type="int">
+      <column name="user_id" not-null="true"/>
+    </property>
+    <property name="language" type="string">
+      <column length="45" name="language"/>
+    </property>
+  </class>
+</hibernate-mapping>
