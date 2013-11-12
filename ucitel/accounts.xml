@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Accounts>
+  <LastConnectionName>Petr</LastConnectionName>
+  <User>
+    <ConnectionName>Petr</ConnectionName>
+    <Login>petr</Login>
+    <Password>n8etaden</Password>
+    <PasswordHash>-402131131</PasswordHash>
+    <Port>3307</Port>
+    <Host>localhost</Host>
+    <MySQLPath>mysql5.0.51b\bin</MySQLPath>
+    <!--MySQLPath>D:\20101211\mysql5.0.51b\mysql5.0.51b\bin</MySQLPath-->
+    <Language>deutsch</Language>
+    <Number_of_answers>5</Number_of_answers>
+    <LengthOfList>7</LengthOfList>
+    <direction>english2czech</direction>
+    <use_proxy>false</use_proxy>
+    <proxy_port>3128</proxy_port>
+    <proxy>158.234.170.80</proxy>
+    <Last_theme>Všechno</Last_theme>
+    <downloadWav>true</downloadWav>
+    <grammar>false</grammar>
+    <sound>true</sound>
+  </User>
+  <User>
+    <Login>x</Login>
+    <ConnectionName>x</ConnectionName>
+    <Password />
+    <PasswordHash>120</PasswordHash>
+    <Port>3306</Port>
+    <Host>SQL06.FreeMySQL.net</Host>
+    <MySQLPath />
+    <Language>english</Language>
+    <Number_of_answers>10</Number_of_answers>
+    <LengthOfList>8</LengthOfList>
+  </User>
+  <User>
+    <Login>slovicka</Login>
+    <ConnectionName>slovicka</ConnectionName>
+    <Password>hesl123</Password>
+    <PasswordHash>812117596</PasswordHash>
+    <Port>3306</Port>
+    <Host>207.182.142.34</Host>
+    <MySQLPath />
+    <Language>english</Language>
+    <Number_of_answers>10</Number_of_answers>
+    <LengthOfList>8</LengthOfList>
+    <direction>english2czech</direction>
+  </User>
+  <User>
+    <Login>test</Login>
+    <ConnectionName>test</ConnectionName>
+    <Password>test</Password>
+    <PasswordHash>3556498</PasswordHash>
+    <Port>3306</Port>
+    <Host>localhost</Host>
+    <MySQLPath>D:\applications\mysql5.0.51b\bin</MySQLPath>
+    <Language>english</Language>
+    <Number_of_answers>10</Number_of_answers>
+    <LengthOfList>8</LengthOfList>
+    <direction>czech2english</direction>
+    <use_proxy>false</use_proxy>
+    <proxy_port>3128</proxy_port>
+    <proxy>158.234.170.80</proxy>
+    <grammar>false</grammar>
+    <downloadWav>true</downloadWav>
+  </User>
+  <User>
+    <Login>novy_test</Login>
+    <ConnectionName>novy_test</ConnectionName>
+    <Password>heslo</Password>
+    <PasswordHash>99169049</PasswordHash>
+    <Port>3306</Port>
+    <Host>localhost</Host>
+    <MySQLPath>D:\applications\mysql5.0.51b\bin</MySQLPath>
+    <Language>english</Language>
+    <Number_of_answers>10</Number_of_answers>
+    <LengthOfList>8</LengthOfList>
+    <direction>czech2english</direction>
+  </User>
+  <User>
+    <Login>bbb</Login>
+    <ConnectionName>bbb</ConnectionName>
+    <Password />
+    <PasswordHash>97314</PasswordHash>
+    <Port>3306</Port>
+    <Host>localhost</Host>
+    <MySQLPath>D:\applications\mysql5.0.51b\bin</MySQLPath>
+    <Language>english</Language>
+    <Number_of_answers>10</Number_of_answers>
+    <LengthOfList>8</LengthOfList>
+    <direction>english2czech</direction>
+  </User>
+</Accounts>
+

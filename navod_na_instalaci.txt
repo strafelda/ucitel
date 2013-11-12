@@ -1,0 +1,5 @@
+1.  spustte jre-6u25-windows-i586.exe a podle pokynu dokoncete instalaci
+2.  muzete ucitele spustit otevrenim souboru Ucitel.jar
+
+
+Poznamka:  program muzete libovolne presouvat a kopirovat, mel by se umet spustit odkudkoliv 
