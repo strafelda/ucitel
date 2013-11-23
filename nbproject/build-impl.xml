@@ -834,7 +834,11 @@ is divided into following sections:
                     </chainedmapper>
                 </pathconvert>
                 <taskdef classname="org.netbeans.modules.java.j2seproject.copylibstask.CopyLibs" classpath="${libs.CopyLibs.classpath}" name="copylibs"/>
+<<<<<<< HEAD
                 <copylibs compress="${jar.compress}" excludeFromCopy="${copylibs.excludes}" index="${jar.index}" indexMetaInf="${jar.index.metainf}" jarfile="${dist.jar}" manifest="@{manifest}" rebase="${copylibs.rebase}" runtimeclasspath="${run.classpath.without.build.classes.dir}">
+=======
+                <copylibs compress="${jar.compress}" index="${jar.index}" indexMetaInf="${jar.index.metainf}" jarfile="${dist.jar}" manifest="@{manifest}" runtimeclasspath="${run.classpath.without.build.classes.dir}">
+>>>>>>> 11db1ed84da77abd9965ab1ca556c938ad6268a3
                     <fileset dir="${build.classes.dir}" excludes="${dist.archive.excludes}"/>
                     <manifest>
                         <attribute name="Class-Path" value="${jar.classpath}"/>

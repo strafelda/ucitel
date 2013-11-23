@@ -1,2 +1,0 @@
-207.182.142.34;3306;slovicka;hesl123
-localhost;3307;strafelda;heslo
